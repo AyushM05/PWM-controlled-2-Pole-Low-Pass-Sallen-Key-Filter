@@ -1000,6 +1000,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 123.19) (xy 104.14 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13024a18-62a3-4841-a6ff-92b6219beb1d")
+	)
+	(wire
+		(pts
 			(xy 130.81 91.44) (xy 111.76 91.44)
 		)
 		(stroke
@@ -1010,7 +1020,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 100.33) (xy 87.63 120.65)
+			(xy 87.63 100.33) (xy 87.63 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1250,7 +1260,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 120.65) (xy 87.63 120.65)
+			(xy 59.69 121.92) (xy 87.63 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1285,7 +1295,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P25.40mm_Horizontal"
 			(at 57.15 95.25 0)
 			(effects
 				(font
@@ -1687,7 +1697,6 @@
 		)
 	)
 	(symbol
-<<<<<<< HEAD
 		(lib_id "Amplifier_Operational:TLV2372")
 		(at 123.19 115.57 0)
 		(unit 2)
@@ -1839,8 +1848,6 @@
 		)
 	)
 	(symbol
-=======
->>>>>>> 2c86170a48444af032439bcf6e64fbed96b29cdb
 		(lib_id "power:GND")
 		(at 57.15 100.33 0)
 		(unit 1)
@@ -1990,11 +1997,7 @@
 			)
 		)
 		(property "Value" "47u"
-<<<<<<< HEAD
 			(at 143.51 86.36 90)
-=======
-			(at 143.51 77.47 90)
->>>>>>> 2c86170a48444af032439bcf6e64fbed96b29cdb
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2045,7 +2048,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 57.15 120.65 90)
+		(at 57.15 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2053,24 +2056,23 @@
 		(dnp no)
 		(uuid "ac6e8eb4-109f-4ed2-9b94-19197b5a4ba0")
 		(property "Reference" "R4"
-			(at 57.15 118.11 90)
+			(at 57.15 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_Small_US"
-			(at 57.15 116.84 90)
+		(property "Value" "180"
+			(at 57.15 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 57.15 120.65 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P25.40mm_Horizontal"
+			(at 57.15 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2079,7 +2081,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 120.65 0)
+			(at 57.15 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2088,7 +2090,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 57.15 120.65 0)
+			(at 57.15 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2129,11 +2131,7 @@
 			)
 		)
 		(property "Value" "4.7n"
-<<<<<<< HEAD
 			(at 109.22 77.47 90)
-=======
-			(at 109.22 68.58 90)
->>>>>>> 2c86170a48444af032439bcf6e64fbed96b29cdb
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2267,11 +2265,7 @@
 			)
 		)
 		(property "Value" "4.7n"
-<<<<<<< HEAD
 			(at 105.41 90.17 0)
-=======
-			(at 105.41 90.1699 0)
->>>>>>> 2c86170a48444af032439bcf6e64fbed96b29cdb
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2348,7 +2342,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P25.40mm_Horizontal"
 			(at 57.15 78.74 0)
 			(effects
 				(font
@@ -2407,16 +2401,15 @@
 				)
 			)
 		)
-		(property "Value" "R_Small_US"
-			(at 57.15 110.49 90)
+		(property "Value" "180"
+			(at 57.15 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P25.40mm_Horizontal"
 			(at 57.15 114.3 0)
 			(effects
 				(font
@@ -2459,7 +2452,6 @@
 		)
 	)
 	(symbol
-<<<<<<< HEAD
 		(lib_id "Amplifier_Operational:TLV2372")
 		(at 106.68 115.57 0)
 		(unit 3)
@@ -2548,8 +2540,6 @@
 		)
 	)
 	(symbol
-=======
->>>>>>> 2c86170a48444af032439bcf6e64fbed96b29cdb
 		(lib_id "power:GND")
 		(at 92.71 102.87 0)
 		(unit 1)
