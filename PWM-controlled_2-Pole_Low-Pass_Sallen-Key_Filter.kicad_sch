@@ -2872,7 +2872,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Footprints:445-FG18X7R1H104KNT00-ND"
 			(at 36.5252 67.31 0)
 			(effects
 				(font
@@ -3006,7 +3006,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 43.18 62.23 0)
 			(effects
 				(font
