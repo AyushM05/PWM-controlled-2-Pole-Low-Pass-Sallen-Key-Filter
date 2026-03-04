@@ -3694,7 +3694,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Footprints:445-181214-ND"
 			(at 105.41 74.6252 0)
 			(effects
 				(font
@@ -4092,7 +4092,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Footprints:445-181214-ND"
 			(at 100.6348 85.09 0)
 			(effects
 				(font
