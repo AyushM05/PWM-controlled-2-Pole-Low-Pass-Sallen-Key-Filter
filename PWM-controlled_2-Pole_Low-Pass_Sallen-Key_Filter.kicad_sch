@@ -4478,7 +4478,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dce21e6b-e0a4-4b39-9ec0-4f4f72166a4c")
-		(property "Reference" "R_Volume"
+		(property "Reference" "R_Volume1"
 			(at 154.94 87.63 0)
 			(effects
 				(font
@@ -4535,7 +4535,7 @@
 		(instances
 			(project ""
 				(path "/fa0e25e8-ac7a-409d-b2e9-0acfbfd2e50e"
-					(reference "R_Volume")
+					(reference "R_Volume1")
 					(unit 1)
 				)
 			)
